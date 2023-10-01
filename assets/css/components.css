@@ -1,0 +1,32 @@
+.btn {
+    color: var(--color-gray-900);
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.048rem;
+
+    padding: 1.6rem 2.4rem;
+    background-color: var(--pink-10);
+
+    transition: background-color .4s;
+}
+
+.btn.lg {
+    font-size: 1.8rem;
+    letter-spacing: -0.054rem;
+
+    padding: 2.3rem 2.4rem;
+}
+
+.btn:hover {
+    background-color: var(--pink-20);
+}
+
+.btn.white {
+    color: var(--gray-900);
+    background-color: #FFFFFF;
+}
+
+.btn.white:hover {
+    color: #FFFFFF;
+    background-color: var(--gray-900);
+}
