@@ -1,0 +1,115 @@
+/* Header */
+header {
+    padding: 2rem;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo-box img {
+    max-width: 20.8rem;
+}
+
+header .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.2rem;
+}
+
+header .container .menu .navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+
+    list-style: none;
+}
+
+header .container .menu .navigation ul li a {
+    color: var(--gray-100);
+    letter-spacing: -0.048rem;
+    text-align: center;
+}
+
+header .container .menu .navigation ul li a:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+
+/* Footer */
+footer {
+    padding: 4.8rem 0;
+}
+
+footer .container .main-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+
+footer .container .main-area {
+    padding-bottom: 6.4rem;
+}
+
+footer .container .main-area .about-side {
+    max-width: 30rem;
+}
+
+footer .container .main-area .about-side .logo-box img {
+    max-width: 20.8rem;
+}
+
+footer .container .main-area .about-side p {
+    margin-top: 2.4rem;
+}
+
+footer .container .main-area .link-wrapper {
+    flex-grow: 1;
+    max-width: 79.2rem;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+
+footer .container .main-area .link-wrapper .links .title {
+    color: var(--color-gray-100, #F5F6FA);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: -0.048rem;
+}
+
+footer .container .main-area .link-wrapper .links ul {
+    margin-top: 3.2rem;
+    list-style: none;
+}
+
+footer .container .main-area .link-wrapper .links ul li:not(:last-child) {
+    margin-bottom: 3.2rem;
+}
+
+footer .container .main-area .link-wrapper .links ul li a {
+    color: var(--gray-600);
+    letter-spacing: -0.048rem;
+
+    display: flex;
+    gap: 1.8rem;
+}
+
+footer .container .main-area .link-wrapper .links ul li a:hover {
+    color: var(--gray-100);
+}
+
+footer .container .copyright {
+    padding-top: 2.4rem;
+}
+
+footer .container .copyright p strong {
+    font-weight: 600;
+}

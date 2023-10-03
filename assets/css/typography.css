@@ -52,3 +52,7 @@ p {
     line-height: 150%;
     letter-spacing: -0.054rem;
 }
+
+a {
+    transition: all .3s ease;
+}
