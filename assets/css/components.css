@@ -1,3 +1,4 @@
+/* CTA */
 .btn {
     color: var(--color-gray-900);
     font-weight: 600;
@@ -29,4 +30,112 @@
 .btn.white:hover {
     color: #FFFFFF;
     background-color: var(--gray-900);
+}
+
+/* Item Digital */
+.item-digital {
+    width: 100%;
+    max-width: 38.4rem;
+}
+
+.item-digital .icon-box {
+    width: 4rem;
+    height: 4rem;
+}
+
+.item-digital .icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item-digital .content {
+    width: 100%;
+    max-width: 31.4rem;
+}
+
+.item-digital .content .title {
+    margin-top: 1.6rem;
+
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.066rem;
+}
+
+.item-digital .content p {
+    margin-top: .8rem;
+}
+
+/* Card */
+.card {
+    width: 100%;
+    max-width: 80rem;
+
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.card .thumb {
+    width: 100%;
+
+    position: relative;
+    z-index: 1;
+}
+
+.card .thumb .category {
+    position: absolute;
+    left: 2.4rem;
+    top: 2.4rem;
+
+    padding: .8rem 2.2rem;
+    border-radius: 10rem;
+    background: rgba(255, 255, 255, 0.10);
+
+    color: var(--gray-100);
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.126rem;
+    text-transform: uppercase;
+}
+
+.card .thumb .img-box {
+    width: 100%;
+    height: 20rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .thumb .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .thumb .img-box.no-image img {
+    max-width: 16.1rem;
+    object-fit: contain;
+}
+
+.card .content {
+    width: 100%;
+    max-width: 52.8rem;
+    padding: 2.4rem;
+}
+
+.card .content .title {
+    font-size: 2.2rem;
+    line-height: 120%;
+    letter-spacing: -0.066rem;
+}
+
+.card .content p {
+    margin-top: .8rem;
+
+    font-size: 1.6rem;
+    letter-spacing: -0.048rem;
 }
