@@ -119,6 +119,7 @@
 .card .thumb .img-box.no-image img {
     max-width: 16.1rem;
     object-fit: contain;
+    object-position: center 80%;
 }
 
 .card .content {
