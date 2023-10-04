@@ -68,6 +68,31 @@
     margin-top: .8rem;
 }
 
+@media only screen and (max-width: 991px) {
+    .item-digital .content .title {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item-digital .icon-box {
+        margin: 0 auto;
+    }
+
+    .item-digital .content {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .item-digital .content p {
+        font-size: 1.6rem;
+    }
+}
+
+
 /* Card */
 .card {
     max-width: 80rem;
@@ -139,4 +164,14 @@
 
     font-size: 1.6rem;
     letter-spacing: -0.048rem;
+}
+
+@media only screen and (max-width: 560px) {
+    .card .content .title {
+        font-size: 1.8rem;
+    }
+
+    .card .content p {
+        font-size: 1.6rem;
+    }
 }
