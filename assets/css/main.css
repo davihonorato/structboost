@@ -83,14 +83,15 @@ header .container .btn-mobile {
 .s-hero .container .content h1::after {
     content: '';
     position: absolute;
-    background: url('../images/vector_line-title.svg') no-repeat center/contain;
+    background: url('../images/vector_line-title.svg') no-repeat left center;
     bottom: -10px;
-    left: 50%;
-    transform: translateX(-53%);    
-    width: 100%;
+    left: 60px;
     max-width: 59.9rem;
     height: 3.2rem;
     z-index: -1;
+
+    /* transition: width 1s ease; */
+    animation: drawLine 1s .5s ease-in forwards;
 }
 
 .s-hero .container .content p {
@@ -121,6 +122,8 @@ header .container .btn-mobile {
     bottom: 30%;
     width: 11.7rem;
     height: 7.8rem;
+
+    animation: fadeRight 3s ease-out infinite;
 }
 
 .s-hero .container .img-box {
@@ -404,10 +407,15 @@ footer .container .copyright p strong {
         font-size: 4.2rem;
     }
 
+    .s-hero .container .content h1::after {
+        left: 0;
+        max-width: 100%;
+    }
+
     .s-hero .container .content .button::before {
         width: 8rem;
         right: auto;
-        left: -9.6rem;
+        left: -10.4rem;
     }
 
     /* Digital */
@@ -460,10 +468,6 @@ footer .container .copyright p strong {
 
     .s-hero .container .content h1 {
         font-size: 4rem;
-    }
-
-    .s-hero .container .content h1::after {
-        transform: translateX(-50%); 
     }
 
     .s-hero .container .content p {
@@ -612,5 +616,31 @@ footer .container .copyright p strong {
         flex-direction: column;
         align-items: center;
         gap: 3.2rem;
+    }
+}
+
+
+/* Animations */
+@keyframes drawLine {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes fadeRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0);
     }
 }
