@@ -1,5 +1,5 @@
 # Structboost
-O projeto Structboost é uma landing page minimalista com o visual que se assemelha bastante a um wireframe. Com o objetivo de revisar o conteúdo nas tecnologias utilizadas no projeto, a página foi projetada com um layout simples a fim de promover um curso online fictício na área de programação web.
+O projeto Structboost é um site one-page minimalista com o visual que se assemelha bastante a um wireframe. Com o objetivo de revisar o conteúdo nas tecnologias utilizadas no projeto, a página foi projetada com um layout simples a fim de promover um curso online fictício na área de programação web.
 
 Neste projeto, além de revisar o conteúdo, aproveitei também para utilizar commits semânticos e em inglês.
 
